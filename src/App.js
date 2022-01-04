@@ -1,24 +1,24 @@
 import React from 'react'
 import './App.css';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import Homepage from './components/Homepage';
 
 function App() {
   return (
     <Router>
-      <div className="app">
-        <Switch>
+      
+        <Routes>
           <Route path='/checkout'>
-            <h1>Checkout</h1>
+            
           </Route>
           <Route path='/login'>
-            <h1>login</h1>
+            
           </Route>
-          <Route path='/'>
-            <h1>HOME PAGE</h1>
-          </Route>
-        </Switch>
-      </div>
+          <Route path='/' element={<Homepage/>}/>
+            
+          
+        </Routes>
+      
     </Router>
   );
 }
