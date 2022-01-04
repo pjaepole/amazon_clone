@@ -1,8 +1,10 @@
+import amazlogo from '../amazon_PNG11.png'
+import './Header.css'
 function Header(){
     return (
-        <div>
-          
-        </div>
+        <nav className='header'>
+            <img className='header_logo' alt='amazon-logo'src={amazlogo} />
+        </nav>
     )
 }
 
