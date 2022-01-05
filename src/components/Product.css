@@ -1,0 +1,32 @@
+.product{
+    display: flex;
+    border:10px solid pink;
+    width: 20%;
+    margin:1% 1%;
+}
+.product_category{
+    width:100%;
+    background-color: white;
+    z-index: 1;
+    /* margin: 20% 20%; */
+}
+.product h3{
+    text-align: center;
+}
+.product_card_container{
+    display: flex;
+    border:solid blue;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.product_card{
+    margin: 8px 8px ;
+    width:25%;
+    border:solid yellow;
+   
+}
+.product_card img{
+    width: 100%;
+    
+} 
+
