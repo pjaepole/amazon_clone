@@ -1,0 +1,29 @@
+
+.home_background_img{
+    background-size: cover !important;
+    height:45vh;
+    display:flex; 
+    justify-content:space-between;
+    align-items:center;
+    font-size:45px;
+}
+.home_img{
+    width: 100%;;
+}
+
+.home_leftarrow{
+    
+}
+.home_leftarrow:hover{
+    font-weight: 700;
+    transition: all .2s ease-in;
+}
+
+.home_rightarrow{
+  
+}
+.home_rightarrow:hover{
+    font-weight: 700;
+    letter-spacing: 0;
+    transition: all .15s ease;
+}
