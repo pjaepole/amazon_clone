@@ -2,6 +2,9 @@
 ### About the Project
 This is my personal project to replicate front-end for the amazon
 
+### Deployment
+
+- Plan to deploy with firebase
 
 ### Frontend
 - Header is complete
