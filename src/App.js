@@ -5,10 +5,12 @@ import Homepage from './components/Homepage';
 import Checkout from './components/Checkout';
 import Login from './components/Login';
 import Header from './components/Header';
+import Home from './components/Home';
 function App() {
   return (
     <Router>
-        <Header></Header>
+        <Header/>
+        <Home/>
         <Routes>
           <Route path='/checkout' element={<Checkout/>}/>          
           <Route path='/login' element={<Login/>}/> 
