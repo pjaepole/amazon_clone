@@ -17,4 +17,11 @@ This is my personal project to replicate front-end for the amazon
         <img  src="https://user-images.githubusercontent.com/87157585/148177449-9721207f-d3a4-4677-829a-e50d9791b855.png" width="700">
       </p>
 
+- home component layout done
+    - <p align="center">
+        <img  src="https://user-images.githubusercontent.com/87157585/148308120-8885c290-a0f7-42e1-8dfd-d1fa3d1f3f63.png" width="700">
+      </p>
+
+
+
 - more to come
