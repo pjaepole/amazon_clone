@@ -9,22 +9,22 @@ function Product(){
                 <div className='product_card_container'>
                     <div className='product_card'>
                         <img alt='loremipsum' src={mockimg}></img>
-                        <p>lorem</p>
+                        <p className='product_card_ptag'>lorem</p>
                     </div>
                     <div className='product_card'>
                         <img alt='loremipsum' src={mockimg}></img>
-                        <p>lorem</p>
+                        <p className='product_card_ptag'>lorem</p>
                     </div>
                     <div className='product_card'>
                         <img alt='loremipsum' src={mockimg}></img>
-                        <p>lorem</p>
+                        <p className='product_card_ptag'>lorem</p>
                     </div>
                     <div className='product_card'>
                         <img alt='loremipsum' src={mockimg}></img>
-                        <p>lorem</p>
+                        <p className='product_card_ptag'>lorem</p>
                     </div>
                 </div>
-                <a></a>
+                <a className='product_category_a'>Shop overstock deals in Outlet</a>
             </div>
         </div>
     )

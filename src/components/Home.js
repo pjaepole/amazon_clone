@@ -17,7 +17,7 @@ function Home(){
             setPicindex(picindex+1)
         }
     }
-    const mockdatanumber=[0,0,0,0,0,0,0,0,0,0,0]
+    const mockdatanumber=[0,0,0,0,0,0,0,0,0,0,0,0]
     const [picindex,setPicindex]=useState(0)
     return (
         <div  className='home'> 
