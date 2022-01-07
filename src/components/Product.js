@@ -24,7 +24,9 @@ function Product(props){
                         <p className='product_card_ptag'>lorem</p>
                     </div>
                 </div>
+                <div className='product_category_a_div'>
                 <a href='google.com' className='product_category_a'>Shop overstock deals in Outlet</a>
+                </div>            
             </div>
         </div>
     )
