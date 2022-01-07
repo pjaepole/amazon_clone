@@ -4,12 +4,16 @@
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .home_img{
     width: 100%;
     mask-image:linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0)) ;
     z-index:-1;
-    margin-bottom:-225px;;
+    margin-bottom:-275px;;
 }
 .home_background_img{
     background-size: cover !important;
@@ -45,5 +49,19 @@
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+}
+
+
+.home_mockproduct_container{
+    width: 84%;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px 20px;
+    margin: 1% 0;
+}
+.home_mockproduct_container_imgs{
+    display:flex;
+    overflow: scroll;
+    overflow-y: hidden;
 }

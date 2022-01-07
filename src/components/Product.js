@@ -1,6 +1,6 @@
 import './Product.css'
 
-function Product(){
+function Product(props){
     const mockimg='https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2021/journeys/MGY0YzMzNTMt/MGY0YzMzNTMt-MjFlYzFlOWUt-w186._SY116_CB650873007_.jpg'
     return (
         <div className='product'>
@@ -24,7 +24,7 @@ function Product(){
                         <p className='product_card_ptag'>lorem</p>
                     </div>
                 </div>
-                <a className='product_category_a'>Shop overstock deals in Outlet</a>
+                <a href='google.com' className='product_category_a'>Shop overstock deals in Outlet</a>
             </div>
         </div>
     )
