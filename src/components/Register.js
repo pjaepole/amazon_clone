@@ -43,6 +43,10 @@ function Register(){
                     <button onClick={registerHandler} className='login_loginbutton'>Register New User</button>
                     <p>By continuing, you agree to Amazon's Conditions of Use and Privacy Notice.</p>
                     <a>Need help?</a>
+                    <div className='register_alreadyhaveaccount'>
+                        <p>Already have an account?--</p> <Link to='/login'>Sign-In</Link>
+                    </div>
+                    
                 </form>
             </div>
         </div>

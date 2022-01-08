@@ -49,3 +49,9 @@
    
 
 }
+
+
+.register_alreadyhaveaccount{
+    display:flex;
+    font-size: 12px;
+}
