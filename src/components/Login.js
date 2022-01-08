@@ -1,10 +1,11 @@
-import {Link } from 'react-router-dom'
+import {Link, useNavigate } from 'react-router-dom'
 import './Login.css'
 import amazonlogo from '../amazon_PNG12.png'
 import {useState} from 'react'
 import { auth,signInWithEmailAndPassword} from '../firebase'
 
 function Login(){
+    const navigate=useNavigate()
     const initialformvalues={
         email:'',
         password:''
@@ -20,7 +21,9 @@ function Login(){
     const loginHandler=(e)=>{
         e.preventDefault();
         signInWithEmailAndPassword(auth,formvalues.email,formvalues.password)
-            .then((auth)=>{console.log(auth)})
+            .then((auth)=>{
+                console.log(auth)
+                navigate('/')})
             .catch((e)=>(alert(e.message)))
     }
     
