@@ -26,6 +26,14 @@ This is my personal project to replicate front-end for the amazon
         <img  src="https://user-images.githubusercontent.com/87157585/148308120-8885c290-a0f7-42e1-8dfd-d1fa3d1f3f63.png" width="700">
       </p>
 
+- firebase login and registering with emailpassword done
+    - <p align="center">
+        <img  src="https://user-images.githubusercontent.com/87157585/148662093-5d363a4e-85e7-42a0-b148-9ecfdfbb3d54.gif" width="700">
+      </p>
+- firebase login with emailpassword authentication done
+    - <p align="center">
+        <img  src="https://user-images.githubusercontent.com/87157585/148662095-30c0125f-27c7-4ef3-95fc-2b483a75b710.gif" width="700">
+      </p>
 
 
 - more to come
