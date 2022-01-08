@@ -1,7 +1,10 @@
+import Home from "./Home"
+import Header from "./Header"
 function Homepage(){
     return (
         <div>
-            This is Homepage
+            <Header/>
+            <Home></Home>
         </div>
     )
 }
