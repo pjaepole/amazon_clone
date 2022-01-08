@@ -15,7 +15,7 @@ function Home(){
             .then(json=>{setMockproducts(json)})
             .catch((err)=>console.log(err))
     },[])
-    console.log(mockproducts)
+    
     
     const leftarrow=()=>{
         if(picindex===0){
