@@ -32,10 +32,21 @@ function Header(){
                     </div>
                 </Link>
                 <Link to='/login' className='header_link'>
-                    <div className='header_option'>
+                    
+
+                        {localStorage.getItem('amazclonelogin') ?
+                        <div className='header_option'>
+                        <span className='header_option_lineone'>{localStorage.getItem('amazclonelogin')}</span>
+                        <span className='header_option_linetwo'>Account & Lists</span>
+                        </div>:
+                        <div className='header_option'>
                         <span className='header_option_lineone'>Hello, Sign in</span>
                         <span className='header_option_linetwo'>Account & Lists</span>
-                    </div>
+                        </div>
+                         }
+                        {/* <span className='header_option_lineone'>Hello, Sign in</span>
+                        <span className='header_option_linetwo'>Account & Lists</span> */}
+                    
                 </Link>
                 <Link to='/' className='header_link'>
                     <div className='header_option'>

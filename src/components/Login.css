@@ -41,6 +41,7 @@
     height:25px;
     border-color: darkgray;
     border-radius: 4px;
+    width:300px;
 }
 .login_logo{
     margin:30px 0 ;
@@ -54,4 +55,10 @@
 .register_alreadyhaveaccount{
     display:flex;
     font-size: 12px;
+}
+
+
+.login_newtoamazon_container{
+    margin-top: 30px;
+    text-align: center;
 }

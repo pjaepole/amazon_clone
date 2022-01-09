@@ -22,7 +22,8 @@ function Login(){
         e.preventDefault();
         signInWithEmailAndPassword(auth,formvalues.email,formvalues.password)
             .then((auth)=>{
-                console.log(auth)
+                console.log(auth.user.email)
+                localStorage.setItem('amazclonelogin',auth.user.email)
                 navigate('/')})
             .catch((e)=>(alert(e.message)))
     }
@@ -44,7 +45,13 @@ function Login(){
                     <p>By continuing, you agree to Amazon's Conditions of Use and Privacy Notice.</p>
                     <a>Need help?</a>
                 </form>
-                <p>New to Amazon?</p>
+                {/* <p>New to Amazon?</p>
+                <Link to='/register'>
+                    <button className='login_registerbutton'>Create your Amazon account</button>
+                </Link> */}
+            </div>
+            <div className='login_newtoamazon_container'>
+                <p>––––––––– New to Amazon? –––––––––</p>
                 <Link to='/register'>
                     <button className='login_registerbutton'>Create your Amazon account</button>
                 </Link>
