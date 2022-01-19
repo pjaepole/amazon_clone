@@ -1,6 +1,7 @@
 
 ### About the Project
-This is my personal project to replicate front-end for the amazon
+- https://clone-26c07.web.app/   deployed here
+- This is my personal project to replicate front-end for the amazon
 <p align="center">
         <img  src="https://user-images.githubusercontent.com/87157585/148517488-4fc91abb-caa0-4113-ad3e-44561de20f9e.gif" width="700">
       </p>
