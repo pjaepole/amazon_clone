@@ -37,3 +37,5 @@ This is my personal project to replicate front-end for the amazon
 
 
 - more to come
+- firebase deploy
+
